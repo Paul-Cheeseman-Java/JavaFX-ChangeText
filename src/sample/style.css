@@ -1,0 +1,134 @@
+
+/*
+    The Skinning info!
+    https://docs.oracle.com/javase/8/javafx/user-interface-tutorial/apply-css.htm#CHDGHCDG
+    https://docs.oracle.com/javase/8/javafx/user-interface-tutorial/ui_controls.htm#CIHBGEIH
+
+*/
+
+/* Defaults */
+
+.readOnlyTextArea-default{
+    -fx-text-inner-color: Black;
+}
+
+
+#inputTextArea {
+    -fx-border-width: 0 1 0 0;
+    -fx-border-color: white grey white white;
+    -fx-border-style: dashed;
+}
+
+
+/* Removing the default styling for TextArea's */
+/*
+.text-area{
+    -fx-background-color: #fff, #fff;
+}
+*/
+.text-area{
+    -fx-background-color: transparent;
+}
+
+.scroll-pane{
+    -fx-background-color: transparent;
+}
+
+.viewport{
+    -fx-background-color: transparent;
+}
+
+/*
+.text-area .content {
+    -fx-background-color: #fff;
+}
+*/
+
+.text-area .content {
+    -fx-background-color: transparent;
+}
+
+.text-area:focused .content {
+    -fx-background-color: transparent;
+}
+/*
+.text-area:focused .content {
+    -fx-background-color: #fff;
+}
+*/
+
+/*************/
+/* Red Theme */
+/*************/
+/*
+.color-picker {
+    -fx-background-color: #669999;
+    -fx-background-radius: 15 15 15 15;
+}
+*/
+
+.fadeInButton-Red{
+    -fx-background-color: red;
+}
+
+.fadeOutButton-Red{
+    -fx-background-color: red;
+}
+
+/*
+.text-area{
+  -fx-fill-color: red;
+}
+*/
+
+.borderPane-Red {
+    -fx-background-color: red;
+}
+
+.colorPicker-Red{
+    -fx-background-color: #fe9e9e;
+    -fx-effect: dropshadow( one-pass-box , #fe0000 , 8 , 0.0 , 4 , 0 );
+}
+
+
+.comboBox-Red{
+    -fx-background-color: #fe9e9e;
+    -fx-effect: dropshadow( three-pass-box , #fe0000 , 8 , 0.0 , 2 , 0 );
+}
+
+.comboBox-Red .list-cell {
+    -fx-background-color: #fe9e9e;
+}
+
+.borderPane-Red{
+    -fx-background-color: #ff6666;
+    -fx-effect: dropshadow( three-pass-box , black , 8 , 0.0 , 2 , 0 );
+}
+
+.slider-Red{
+    -fx-background-color: #ff6666;
+    -fx-effect: dropshadow( three-pass-box , black , 8 , 0.0 , 2 , 0 );
+}
+
+.slider-Red .track{
+    -fx-background-color: #ff6666;
+    -fx-border-color: grey;
+}
+
+.slider-Red .thumb{
+    -fx-background-color: #ff6666;
+    -fx-border-color: grey;
+}
+
+.button-Red{
+    -fx-background-color: #ff6666;
+    -fx-border-color: grey;
+    -fx-effect: dropshadow( three-pass-box , black , 8 , 0.0 , 2 , 0 );
+}
+
+
+
+.checkBox-Red .box{
+    -fx-background-color: #fe0000;
+    -fx-effect: dropshadow( three-pass-box , black , 8 , 0.0 , 2 , 0 );
+}
